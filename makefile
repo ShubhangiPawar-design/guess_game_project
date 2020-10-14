@@ -1,1 +1,1 @@
-README.md: ; echo "My First Linux Project:Guess Game" >> README.md ; date >> README.md ; wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
+README.md: ; echo "My First Linux Project:Guess Game" >> README.md ; echo  >> README.md ;  echo "Execution time of makefile" >> README.md ;  date >> README.md ; echo  >> README.md ; echo "Number of lines in guessing.sh:" >> README.md ; wc -l guessinggame.sh | egrep -o "[0-9]+" >> README.md
